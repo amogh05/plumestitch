@@ -5,28 +5,28 @@ const FALLBACK_PRODUCTS = [
     id: "tee-core-black",
     name: "Core Black Tee",
     price: 899,
-    image: "Images/Tshirt/PLUMEANDSTICH Printed Men Round Neck Green T-Shirt - Buy PLUMEANDSTICH Printed Men Round Neck Green T-Shirt Online at Best Prices in India _ Flipkart.com_files/s-pl0003-black-plumeandstich-original-imahmaqpvtytjpan.jpeg",
+    image: "images/Tshirt/img6_files/s-pl0003-black-plumeandstich-original-imahmaqpvtytjpan.jpeg",
     description: "Minimal premium black tee with everyday regular fit."
   },
   {
     id: "tee-cloud-white",
     name: "Cloud White Tee",
     price: 799,
-    image: "Images/Tshirt/PLUMEANDSTICH Printed Men Round Neck Green T-Shirt - Buy PLUMEANDSTICH Printed Men Round Neck Green T-Shirt Online at Best Prices in India _ Flipkart.com_files/s-pl0003-yellow-plumeandstich-original-imahmaqw56xxkgsj.jpeg",
+    image: "images/Tshirt/img6_files/s-pl0003-yellow-plumeandstich-original-imahmaqw56xxkgsj.jpeg",
     description: "Soft cotton white t-shirt with clean structure."
   },
   {
     id: "tee-street-graphic",
     name: "Street Graphic Tee",
     price: 999,
-    image: "Images/Tshirt/PLUMEANDSTICH Printed Men Round Neck Green T-Shirt - Buy PLUMEANDSTICH Printed Men Round Neck Green T-Shirt Online at Best Prices in India _ Flipkart.com_files/s-pl0003-green-plumeandstich-original-imahmaqunhezajkq.jpeg",
+    image: "images/Tshirt/img6_files/s-pl0003-green-plumeandstich-original-imahmaqunhezajkq.jpeg",
     description: "Bold chest print and breathable knit for long wear."
   },
   {
     id: "tee-oversized-sand",
     name: "Oversized Sand Tee",
     price: 1099,
-    image: "Images/Tshirt/PLUMEANDSTICH Printed Men Round Neck Green T-Shirt - Buy PLUMEANDSTICH Printed Men Round Neck Green T-Shirt Online at Best Prices in India _ Flipkart.com_files/s-pl0003-maroon-plumeandstich-original-imahmaqzanqykshw.jpeg",
+    image: "images/Tshirt/img6_files/s-pl0003-maroon-plumeandstich-original-imahmaqzbm7dxxvq.jpeg",
     description: "Relaxed oversized silhouette in muted sand tone."
   }
 ];
