@@ -1,5 +1,5 @@
 {
-  "name": "Plume & Stitch-store",
+  "name": "plume-stitch-store",
   "version": "1.0.0",
   "description": "Full-stack t-shirt selling website",
   "main": "server.js",
