@@ -1,5 +1,5 @@
 const API_BASE = window.location.protocol === "file:" ? "" : window.location.origin;
-const CART_KEY = "threadtheory_cart";
+const CART_KEY = "Plume & Stitch_cart";
 const FALLBACK_PRODUCTS = [
   {
     id: "tee-core-black",
