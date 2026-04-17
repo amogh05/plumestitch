@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>          
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLUME & STITCH | Premium T-Shirts</title>
+  <meta name="description" content="PLUME & STITCH premium t-shirts. Clean fits, bold designs, and fast delivery.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">PLUME & STITCH</a>
+    <nav class="site-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="Shop.html">Shop</a>
+      <a href="About.html">About</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+    <button id="cart-toggle" class="cart-toggle" type="button">Cart <span id="cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Drop 2026</p>
+        <h1>T-Shirts Built For Daily Legends</h1>
+        <p>Sharp fits, soft fabric, and graphic collections that stand out from the first wear.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="Shop.html">Shop Collection</a>
+          <a class="btn btn-secondary" href="About.html">Our Story</a>
+        </div>
+      </div>
+      <img class="hero-logo" src="Images\Logo.jpg" alt="PLUME & STITCH logo">
+    </section>
+
+    <section class="section-block">
+      <div class="section-head">
+        <h2>Featured Tees</h2>
+        <a href="Shop.html">View all</a>
+      </div>
+      <div id="featured-products" class="product-grid"></div>
+    </section>
+  </main>
+
+  <aside id="cart-panel" class="cart-panel" aria-hidden="true">
+    <div class="cart-head">
+      <h3>Your Cart</h3>
+      <button id="close-cart" class="icon-btn" type="button">X</button>
+    </div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-footer">
+      <p>Total: <strong id="cart-total">INR 0</strong></p>
+      <button id="checkout-btn" class="btn btn-primary" type="button">Checkout</button>
+    </div>
+  </aside>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer class="site-footer">
+    <p>2026 PLUME & STITCH. Built for comfort. Designed for statement.</p>
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
